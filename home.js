@@ -1,2 +1,7 @@
 console.log("Hello World!");
-showMessage("Title");
+
+let name = "World";
+let title = `Hello ${name}!`;
+
+changeDiscount(25);
+showMessage(title);
